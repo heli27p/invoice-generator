@@ -16,7 +16,5 @@ app.use(express.json());
 // Routes
 app.use('/api/invoices', invoiceRoutes);
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+// Export the handler for serverless functions
+module.exports = app;
