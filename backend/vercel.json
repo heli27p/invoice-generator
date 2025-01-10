@@ -7,7 +7,7 @@
       }
     ],
     "env": {
-      "MONGO_URI": "@mongo-uri"
+      "MONGO_URI": "mongodb+srv://helipatel272003:99kz6YigTGIHct7h@cluster2.dq7zo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster2"
     },
     "routes": [
       {
