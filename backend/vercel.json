@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "backend/package.json",
+        "use": "@vercel/node"
+      }
+    ],
+    "env": {
+      "MONGODB_URI": "your_mongodb_connection_string_here"
+    }
+  }
+  
